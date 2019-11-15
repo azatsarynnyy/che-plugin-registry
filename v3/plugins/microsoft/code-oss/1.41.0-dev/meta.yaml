@@ -1,0 +1,27 @@
+apiVersion: v2
+publisher: microsoft
+name: code-oss
+version: 1.41.0-dev
+type: Che Editor
+displayName: Visual Studio Code - Open Source ("Code - OSS")
+title: Visual Studio Code Web Dev
+description: Code - OSS ("Visual Studio Code - Open Source"). Open Source build of Visual Studio Code, packaged into a Che Plugin.
+icon: https://raw.githubusercontent.com/theia-ide/theia/master/logo/theia-logo-no-text-black.svg?sanitize=true
+category: Editor
+repository: https://github.com/microsoft/vscode/
+firstPublicationDate: "2019-09-08"
+spec:
+  endpoints:
+   -  name: "code"
+      public: true
+      targetPort: 5000
+      attributes:
+        protocol: http
+        type: ide
+  containers:
+   - name: code
+     image: "docker.io/azatsarynnyy/code-oss:che"
+     mountSources: true
+     ports:
+         - exposedPort: 5000
+     memoryLimit: "1024M"
