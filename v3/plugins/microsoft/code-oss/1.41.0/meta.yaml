@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: microsoft
 name: code-oss
-version: 1.41.0-dev
+version: 1.41.0
 type: Che Editor
 displayName: Visual Studio Code - Open Source ("Code - OSS")
 title: Visual Studio Code Web Dev

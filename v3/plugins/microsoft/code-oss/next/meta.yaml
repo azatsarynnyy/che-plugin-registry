@@ -4,7 +4,7 @@ name: code-oss
 version: next
 type: Che Editor
 displayName: Visual Studio Code - Open Source ("Code - OSS")
-title: Visual Studio Code Web Dev
+title: Visual Studio Code Web
 description: Code - OSS ("Visual Studio Code - Open Source"). Open Source build of Visual Studio Code, packaged into a Che Plugin.
 icon: https://raw.githubusercontent.com/theia-ide/theia/master/logo/theia-logo-no-text-black.svg?sanitize=true
 category: Editor
