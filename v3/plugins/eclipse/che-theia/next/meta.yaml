@@ -31,6 +31,7 @@ spec:
         secure: true
         cookiesAuthEnabled: true
         discoverable: false
+        unique: true
    -  name: "theia-dev"
       public: true
       targetPort: 3130
