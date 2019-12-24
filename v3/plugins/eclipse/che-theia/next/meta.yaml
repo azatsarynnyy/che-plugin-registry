@@ -23,7 +23,7 @@ spec:
         discoverable: false   
    -  name: "webviews"
       public: true
-      targetPort: 3101
+      targetPort: 3100
       attributes:
         protocol: http
         type: webview
@@ -73,7 +73,6 @@ spec:
      mountSources: true
      ports:
          - exposedPort: 3100
-         - exposedPort: 3101
          - exposedPort: 3130
          - exposedPort: 13131
          - exposedPort: 13132
