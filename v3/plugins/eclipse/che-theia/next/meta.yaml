@@ -21,7 +21,6 @@ spec:
         secure: true
         cookiesAuthEnabled: true
         discoverable: false
-        unique: true
    -  name: "webviews"
       public: true
       targetPort: 3100
