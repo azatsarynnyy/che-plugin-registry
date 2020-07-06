@@ -11,4 +11,4 @@ repository: https://github.com/bla
 category: Language
 spec:
   extensions:
-    - https://raw.githubusercontent.com/gorshkov-leonid/trash/master/jebbs.plantuml-2.13.11.vsix
+    - https://github.com/azatsarynnyy/che-plugin-registry/blob/angular/v3/plugins/Angular/Angular.ng-template/0.1000.2/Angular.ng-template-0.1000.2.vsix?raw=true
