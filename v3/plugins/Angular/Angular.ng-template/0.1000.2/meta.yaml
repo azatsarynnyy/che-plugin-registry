@@ -1,6 +1,6 @@
 apiVersion: v2
 publisher: Angular	
-name: Angular.ng-template	
+name: ng-template	
 version: 0.1000.2
 type: VS Code extension
 displayName: Angular Language Service
